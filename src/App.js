@@ -40,3 +40,9 @@ const App = () => {
 };
 
 export default App;
+
+// In the example above, the parent App component is passing an array of objects called "expenses" to the child component Expenses, using the "items" property:
+
+// <Expenses items={expenses} />
+
+// The Expenses child component receives the props as an object in its props parameter. To access the data inside the props object, the code is using dot notation to access the properties of the items object passed by the parent component.
